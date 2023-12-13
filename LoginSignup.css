@@ -1,0 +1,46 @@
+.algni{
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image :url('./img.avif');
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color:white;
+}
+input{
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color:#8ACDD7;
+    border: none;
+    border-radius: 5px;
+    color: #0c0c0c;
+}
+button:hover{
+   background-color: black;
+   color:#8ACDD7; 
+}
